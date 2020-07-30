@@ -1,0 +1,8 @@
+# How to fix docker: Got permission denied while trying to connect to the Docker daemon socket
+sudo chmod 666 /var/run/docker.sock
+
+# Docker Image to run jobs using docker agent for carts maven application
+agiledevopsinc/carts-maven
+
+# Docker Image to run jobs using docker agent for frontend nodejs application
+node:4-alpine
